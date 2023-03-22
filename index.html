@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập làm thêm</title>
+</head>
+<body>
+    <h1>Đăng ký Thành viên</h1>
+    <style>
+        table, tr, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+    <table>
+        <tbody>
+            <tr>
+                <td>Họ tên:</td>
+                <td><input type="text" placeholder="Vui lòng nhập Họ tên"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" placeholder="Vui lòng nhập Mật khẩu"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" id="Nam" name="gioiTinh" value="Nam">
+                    <label for="Nam">Nam   </label>
+                    <input type="radio" id="Nu" name="gioiTinh" value="Nữ">
+                    <label>Nữ   </label>
+                    <input type="radio" id="KCB" name="gioiTinh" value="Không công bố">
+                    <label>Không công bố</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích:</td>
+                <td>
+                    <input type="checkbox" id="phim" name="soThich" value="xem phim">
+                    <label for="phim">Xem phim</label><br>
+                    <input type="checkbox" id="sách" name="soThich" value="đọc sách">
+                    <label for="phim">Đọc sách</label><br>
+                    <input type="checkbox" id="nhạc" name="soThich" value="nghe nhạc">
+                    <label for="phim">Nghe nhạc</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Tuổi</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Từ khóa tìm kiếm:</td>
+                <td><input type="text" placeholder="tu khoa"></td>
+            </tr>
+            <tr>
+                <td>Giới thiệu bản thân:</td>
+                <td><textarea cols="100" rows="10" placeholder="Xin chào, tôi tên Cường..."></textarea></td>
+            </tr>
+            <tr>
+                <td>Email có thể liên hệ:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ web của bạn:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Các loại chọn thời gian</td>
+                <td>
+                    <p><b>Ngày tháng</b></p>
+                    <label for="ngay">Chọn ngày:</label>
+                    <input type="date" id="ngay"><br>
+                    <label for="thang">Chọn tháng:</label>
+                    <input type="month" id="thang"><br>
+                    <label for="tuan">Chọn tuần</label>
+                    <input type="week" id="tuan">
+                    <p><b>Giờ</b></p>
+                    <label for="gio">Chọn giờ</label>
+                    <input type="time" id="gio"><br>
+                    <label for="ngayGio">Chọn cả Ngày + Giờ</label>
+                    <input type="datetime-local" id="ngayGio">
+                </td>
+            </tr>
+            <tr>
+                <td>Màu yêu thích:</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Bạn đang sinh sống ở TP/Tỉnh nào?</td>
+                <td><input type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
